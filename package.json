@@ -1,10 +1,10 @@
 {
-  "name": "nextjs-typescript-practice",
+  "name": "nextjs-ghpages-practice",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export && touch out./nojekyll",
+    "build": "next build && next export && echo 1 > out/.nojekyll",
     "start": "next start",
     "lint": "next lint",
     "deploy": "gh-pages -t true -d out"

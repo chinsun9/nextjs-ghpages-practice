@@ -1,4 +1,4 @@
-# nextjs typescript practice
+# nextjs ghpages practice
 
 nextjs로 만든 앱을 깃허브 페이지에 올려보기
 
@@ -16,7 +16,7 @@ yarn add -D gh-pages
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
-  basePath: "/nextjs-typescript-practice", // 추가
+  basePath: "/nextjs-ghpages-practice", // 저장소이름 추가
 };
 ```
 

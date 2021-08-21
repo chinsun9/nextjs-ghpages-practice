@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
-  basePath: '/nextjs-typescript-practice'
+  basePath: `/${process.env.npm_package_name}`
 }
